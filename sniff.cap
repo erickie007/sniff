@@ -1,0 +1,10 @@
+events.stream off
+events.ignore endpoint.lost
+events.ignore endpoint.new
+events.stream on
+net.probe on
+net.sniff on
+set arp.spoof.fullduplex true
+arp.spoof on
+http.proxy on
+
